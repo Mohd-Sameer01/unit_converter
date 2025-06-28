@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+
+select {
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+button {
+    padding: 5px 20px;
+    margin: 10px;
+    background: blue;
+    border: 2px solid blue;
+    border-radius: 15px;
+    color: white;
+    display: block;
+}
+
+h1 {
+    display: inline;
+    font-size: 15px;
+}
+
+p {
+    color: blue;
+}
