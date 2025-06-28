@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>mohd sameer </title>
-        <link rel="stylesheet" href="learn.css">
-        <script src="learn.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-    <body>
+
+<head>
+    <title>mohd sameer </title>
+    <link rel="stylesheet" href="learn.css">
+    <script src="learn.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="container">
         <input onclick="okay()" id="input" type="number" placeholder="enter value">
-        <h1> From </h1>
-        <select id="fromUnit">
-            <option> Kilometer </option>
-            <option> Meter </option>
-            <option> Centimeter </option>
-            <option> Milimeter </option>
-        </select>
-        <h1>To </h1>
-         <select id="toUnit">
-            <option> Kilometer </option>
-            <option> Meter </option>
-            <option> Centimeter </option>
-            <option> Milimeter </option>
-        </select>
-    <button id="btn" onclick="conversion()"> Convert </button>
-    <p id="answersheet"></p>
-    </body>
+        <div>
+            <h1> From </h1>
+            <select id="fromUnit">
+                <option> Kilometer </option>
+                <option> Meter </option>
+                <option> Centimeter </option>
+                <option> Milimeter </option>
+            </select>
+        </div>
+        <div>
+            <h1>To </h1>
+            <select id="toUnit">
+                <option> Kilometer </option>
+                <option> Meter </option>
+                <option> Centimeter </option>
+                <option> Milimeter </option>
+            </select>
+        </div>
+        <button id="btn" onclick="conversion()"> Convert </button>
+        <p id="answersheet"></p>
+    </div>
+</body>
+
 </html>
