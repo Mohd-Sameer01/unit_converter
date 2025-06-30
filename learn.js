@@ -14,10 +14,12 @@ function conversion() {
    } 
 
   let calculation = {
-    Kilometer: 1000000,
-    Meter: 1000,
-    Centimeter: 10,
-    Milimeter: 1
+    
+    Kilometer: 1000000000,
+    Meter: 1000000,
+    Centimeter: 10000,
+    Milimeter: 1000,
+    micrometer: 1
   };
 
   let from = calculation[fromUnit];
