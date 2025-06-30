@@ -19,7 +19,7 @@ function conversion() {
     Meter: 1000000,
     Centimeter: 10000,
     Milimeter: 1000,
-    micrometer: 1
+    Micrometer: 1
   };
 
   let from = calculation[fromUnit];
